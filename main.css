@@ -1,0 +1,39 @@
+* {
+  box-sizing : border-box;
+}
+html {
+  background color:#000;
+}
+
+header {
+  width: 100%;
+}
+.wrapper {
+  line-height: 1.6;
+  color: #3a3a3a;
+  padding-left :1 em;
+  padding right: 1 em
+  /*width: 70%;*/
+  /*margin: 0 auto;*/
+}
+
+.button {
+  min-height: calc(100vh - 89pxS); /*make foot sticky*/
+}
+
+h1{}
+
+footer {
+  width:100%;
+  /*make it sticky*/
+
+}
+
+/*Media Queries*/
+@media (min-width : 769px) {
+  .wrapper {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+}
