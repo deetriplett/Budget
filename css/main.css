@@ -1,0 +1,138 @@
+/** {
+  box-sizing : border-box;
+}
+/* =================================
+  Base Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}html {
+  background color:#000;
+}
+
+header {
+  width: 100%;
+}
+
+.main-header {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background: #3acec2;
+	margin-bottom: 30px;
+}
+
+.wrapper {
+  line-height: 1.6;
+  color: #3a3a3a;
+  padding-left :1 em;
+  padding right: 1 em
+  /*width: 70%;*/
+  /*margin: 0 auto;*/
+}
+.nav,
+.nav li {
+  text-align: right;
+  display : inline-block;
+}
+
+.name a,
+.main-nav a {
+  padding: 10px 15px;
+  display: block;
+}
+
+.button {
+  min-height: calc(100vh - 89pxS); /*make foot sticky*/
+}
+
+h1{}
+
+footer {
+  width:100%;
+  /*make it sticky*/
+
+}
+/*********Base Styles*******/
+body {
+	display: flex;
+	flex-direction:column;
+	min-height:100vh;
+}
+
+
+/*Media Queries*/
+@media (min-width : 769px) {
+  .wrapper {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+
+}
+.name,
+.col {
+  float: left;
+}
+
+.primary,
+.secondary {
+  width: 50%;
+}
+
+.main-nav {
+float: right;
+}
+
+.main nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.tagline {
+  font-size: 1.4em;
+}
+}
+
+@media (min-width 1025px) {
+
+.container {
+  width: 80%;
+  max-width: 1150px;
+ }
+
+.primary {
+  width: 40%;
+}
+.secondary,
+.tertiary {
+  width 30%;
+}
+}
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}*/
