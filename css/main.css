@@ -42,17 +42,17 @@ li a {
 /* =================================
   Body
 ==================================== */
-
+.quiz {
+	display:none;
+}
 
 
 /* =================================
-  Footer
+  Quiz
 ==================================== */
-footer {
-  width:100%;
-	min-height: calc(100vh - 89pxS); /*make foot sticky*/
+ ul .quizPrintOut {
+	list-style-type: none;
 }
-
 
 /* =================================
   Media Queries
