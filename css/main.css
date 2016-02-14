@@ -1,22 +1,53 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #00004c;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+/*  background-image: url("img/BudgetWiz.jpg");*/
+}
+
+
+/* =================================
+ Header
+==================================== */
+#wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+/*
+img {
+  align-content:center;
+  max-width: 10%;
+  height: auto;
+  border-radius: 50%;
+}
+*/
 /* =================================
   Base Styles
 ==================================== */
+/*
 * {
-	box-sizing:border-box; border-box;}
+	box-sizing:border-box;}
 
 * {
 	font-family: 'Varela Round', sans-serif;
 	color: #000;
-  background color:#fff;
+  background-color: blue;
 }
-
-
-
-
+*/
 
 /* =================================
   Navigation
 ==================================== */
+/*
 .nav {
 	list-style-type: none;
 	color:#fff;
@@ -25,11 +56,13 @@ li a {
 	display: block;
 	width: 60px;
 }
+*/
 
 
 /* =================================
   Header
 ==================================== */
+/*
 .main_header {
 	background-color:#00004c;
 	float: left;
@@ -38,33 +71,39 @@ li a {
 	padding-bottom: 1.5em;
 	margin-bottom: 30px;
 }
+*/
 
 /* =================================
   Body
 ==================================== */
+/*
 .quiz {
 	display:none;
 }
+*/
 
 
 /* =================================
   Quiz
 ==================================== */
- ul .quizPrintOut {
+/*
+.quizPrintOut {
 	list-style-type: none;
 }
+*/
 
 /* =================================
   Media Queries
 ==================================== */
 
+/*
 @media (min-width : 768px) {
   .main_header {
     margin: 0 auto;
 }
 
 li {
-	float: right;
+	float: left;
 
 }
 li a {
@@ -73,13 +112,16 @@ li a {
 
 @media (max-width : 1200px){}
 }
+*/
 
 
 
 	/* ---- Float clearfix ---- */
 
+/*
 	.clearfix::after {
 		content: " ";
 		display: table;
 		clear: both;
 	}
+*/
