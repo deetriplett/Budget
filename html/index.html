@@ -6,12 +6,13 @@
       	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
       	<link rel="stylesheet" href="css/normalize.css">
       	<link rel="stylesheet" href="css/main.css">
+        <script src="budget.js"></script>
       </head>
-        <body>
-          <header id="main_header">
-            <span>budgetWIZ</span>
+
+      <body>
+        <header id="main_header">
               <nav id="nav">
-                <img src ="img/BudgetWiz.jpg">
+                <span>budgetWIZ</span>
                   <ul>
                     <li><a href="html/about.html">about</a></li>
                     <li><a href="html/contact.html">contact</a></li>
@@ -20,7 +21,7 @@
               </nav>
             </header>
 
-  <div id="wrapper">
+  <div id="wrapper" style="display:table;">
             <h1>Abracadabra!</h1>
             <h2>Making a budget is hard. Let me make one for you!</h2>
   </div>
@@ -50,18 +51,18 @@
 
   </div>
     <form id="quizPrintOut">
+      <h3>Presto Chango! <br> You are now a Budgeting Wizard!</h3>
       <ul>
-        <li><label for="housing"></label>Housing:</li>
-        <li><label for="transportation"></label>Transportation:</li>
-        <li><label for="food"></label>Food:</li>
-        <li><label for="healthcare">Healthcare:</label></li>
-        <li><label for="utilities"></label>Utilities:</li>
-        <li><label for="savings"></label>Savings:</li>
-        <li><label for="fun"></label>Fun:</li>
-        <li><label for="debts">Debts:</label></li>
-        <li><label for="other">Other:</label></li>
+        <li><label for="housing" id="housing"></label>Housing:</li>
+        <li><label for="transportation" id="car"></label>Transportation:</li>
+        <li><label for="food" id="food"></label>Food:</li>
+        <li><label for="healthcare" id="health">Healthcare:</label></li>
+        <li><label for="utilities" id="utilities"></label>Utilities:</li>
+        <li><label for="savings" id="save"></label>Savings:</li>
+        <li><label for="fun" id="fun"></label>Fun:</li>
+        <li><label for="debts" id="debt">Debts:</label></li>
+        <li><label for="other" id="other">Other:</label></li>
       </ul>
     </form>
-  <!-- <script src="budget.js"></script> -->
 </body>
 </html>
