@@ -5,64 +5,70 @@
       	<title>budgetWIZ</title>
       	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
       	<link rel="stylesheet" href="css/normalize.css">
-      	<link rel="stylesheet" href="css/main.css">
-        <script src="budget.js"></script>
+      	<link rel="stylesheet" href="/css/main.css">
       </head>
-
       <body>
-        <header id="main_header">
-              <nav id="nav">
-                <span>budgetWIZ</span>
-                  <ul>
-                    <li><a href="html/about.html">about</a></li>
-                    <li><a href="html/contact.html">contact</a></li>
-                    <li><a href="html/index.html">WIZQuiz</a></li>
-                  </ul>
-              </nav>
-            </header>
+        <div id="wrapper">
+          <div id="header">
+            <img src="/img/wizard.jpg" alt="Wizard Icon">
+            <h1>budgetWiz</h1>
+            <ul id="nav">
+              <li><a href="/about.html">about</a></li>
+              <li><a href="/contact.html">contact</a></li>
+              <li><a href="/index.html">WIZQuiz</a></li>
+            </ul>
+    </div>
 
-  <div id="wrapper" style="display:table;">
-            <h1>Abracadabra!</h1>
-            <h2>Making a budget is hard. Let me make one for you!</h2>
+
+<div id="content">
+      <h2>Abracadabra!</h2>
+      <h3>Making a budget is hard. Let me make one for you!</h3>
+</div>
+
+  <button type="button">Take the Wiz Quiz!</button>
+      <!-- Make this button disappear, slide question in from the left -->
+
+  <div id="quiz">
+ <!-- <script> $("#quiz").hide(); -->
+      <div id="question1" >
+          <p><strong>What is your monthy income?</strong></p>
+          <input type="text">
+          <input type="submit" value="Next"></div>
+
+          <div id="question2">
+        <p><strong>How many people reside in your household?</strong></p>
+          <input type="text">
+          <input type="submit" value="Next"></div>
+
+          <div id="question3">
+          <p><strong>Do you have a lot of debt?</strong></p>
+          <input type="radio" name="debt" value="YES"> YES<br>
+          <input type="radio" name="debt" value="NO"> NO
+          <input type="submit" value="Next"></div>
+
+          <div id="question4">
+          <p><strong>Are you frugal or fancy?</strong></p>
+          <input type="radio" name="spending" value="Frugal"> Frugal<br>
+          <input type="radio" name="spending" value="Fancy"> Fancy
+          <input type="submit" value="Work your Magic, BudgetWiz!"></div>
+   <!-- </script>-->
+</div>
+
+<form id="quizPrintOut">
+<script>$("#quizPrintOut").hide("visibility", "hidden");
+<h3>Presto Chango! <br> You are now a Budgeting Wizard!</h3>
+<ul>
+  <li><label for="housing" id="housing"></label>Housing:</li><output></output>
+  <li><label for="transportation" id="car"></label>Transportation:</li><output></output>
+  <li><label for="food" id="food"></label>Food:</li><output></output>
+  <li><label for="healthcare" id="health">Healthcare:</label></li><output></output>
+  <li><label for="utilities" id="utilities"></label>Utilities:</li><output></output>
+  <li><label for="savings" id="save"></label>Savings:</li><output></output>
+  <li><label for="fun" id="fun"></label>Fun:</li><output></output>
+  <li><label for="debts" id="debt">Debts:</label></li><output></output>
+  <li><label for="other" id="other">Other:</label></li><output></output>
+    </ul>
+  </script>
+  </form>
   </div>
-
-  <div id="quizButton">
-        <button type="button">Take the Wiz Quiz!</button>
-            <!-- Make this button disappear, slide question in from the left -->
-        <div id="quiz" class="wizQuiz">
-            <div id="question1" >
-                <p>What is your monthy income?</p>
-                <input type="text">
-                <input type="submit" value="Submit"></div>
-            <div id="question2">
-                <p>How many people reside in your household?</p>
-                <input type="text">
-                <input type="submit" value="Submit"></div>
-              <div id="question3">
-                <p>Do you have a lot of debt?</p>
-                <input type="radio" name="debt" value="YES"> YES<br>
-                <input type="radio" name="debt" value="NO"> NO
-                <input type="submit" value="Submit"></div>
-              <div id="question4"></div>
-                <p>Are you frugal or fancy?</p>
-                <input type="radio" name="spending" value="Frugal"> Frugal<br>
-                <input type="radio" name="spending" value="Fancy"> Fancy
-                <input type="submit" value="Work your Magic, BudgetWiz!"></div>
-
-  </div>
-    <form id="quizPrintOut">
-      <h3>Presto Chango! <br> You are now a Budgeting Wizard!</h3>
-      <ul>
-        <li><label for="housing" id="housing"></label>Housing:</li>
-        <li><label for="transportation" id="car"></label>Transportation:</li>
-        <li><label for="food" id="food"></label>Food:</li>
-        <li><label for="healthcare" id="health">Healthcare:</label></li>
-        <li><label for="utilities" id="utilities"></label>Utilities:</li>
-        <li><label for="savings" id="save"></label>Savings:</li>
-        <li><label for="fun" id="fun"></label>Fun:</li>
-        <li><label for="debts" id="debt">Debts:</label></li>
-        <li><label for="other" id="other">Other:</label></li>
-      </ul>
-    </form>
 </body>
-</html>
