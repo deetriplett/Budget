@@ -5,15 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheEt" href="file:///C:/Users/Ashley/Desktop/Budget/css/style.css">
+  <link rel="stylesheet" href="file:///C:/Users/Ashley/Desktop/Budget/css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="file:///C:/Users/Ashley/Desktop/Budget/js/budget.js"></script>
   </head>
 <body>
   <nav class="navbar navbar-inverse navbar-custom"><!--NAVIGATION--->
   <div class="container-fluid">
     <div class="navbar-header">
-    <span>  <img src="file:///C:/Users/Ashley/Desktop/Budget/img/budgetWiz-logo.png" alt="budgetWIZ"> </span>
+    <span>  <img src="file:///C:/Users/Ashley/Desktop/Budget/img/budget-logo2.png" alt="budgetWIZ" class="img-responsive"> </span>
       </div>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="file:///C:/Users/Ashley/Desktop/Budget/html/about.html">about</a></li>
@@ -28,11 +29,13 @@
           <h2>Making a budget is hard. Let me make one for you!</h2>
           </div>
         </div>
-    <div class="container"><!--QUIZ BUTTON--->
-      <button type="button" class="btn btn-primary btn-lg text-center">Take the Wiz Quiz!</button>
+    <div class="col-md-12 text-center"><!--QUIZ BUTTON--->
+      <button type="button" class="btn btn-primary btn-lg">Take the Wiz Quiz!</button>
         </div>
-    <div class="container"><!--QUIZ--->
-      <ul id="quiz">
+    <div class="row">
+    <div class="container-fluid">
+      <div class="col-xs-6 col-md-3"></div>
+      <ul id="quiz" class="col-xs-6 col-md-6 text-center">
         <li id="question1" class="quiz-questions">
           <p><strong>What is your monthy income?</strong></p>
           <input type="number">
@@ -53,12 +56,11 @@
           <br>
           <input type="radio" name="spending" value="Fancy"> Fancy
             </li>
-          <div class="col-md-4 center-block">
-            <input type="submit" class="btn btn-info" value="Work your Magic, BudgetWiz!">
-              </div>
-        </ul>
+        <input type="submit" class="btn btn-info" value="Work your Magic, BudgetWiz!">
+      </ul>
       </div>
-
+      <div class="col-xs-6 col-md-3"></div>
+      </div>
       <div class="container"><!---QUIZ RESULTS-->
         <form role="form" id="quizPrintOut">
           <div class="well">
