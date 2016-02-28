@@ -1,0 +1,48 @@
+/*BASE STYLES*/
+ul li
+{
+    list-style-type: none;
+}
+
+
+/*NAVIGATION*/
+.navbar-custom {
+  background-color: #fff;
+  border: none;
+}
+.nav li {
+  color: #69D2E7;
+  margin-top: 35px;
+  font-size: 2em;
+}
+.nav li ::hover {
+  color: orange;
+}
+
+
+/*JUMBOTRON*/
+.jumbotron {
+    color: #fff;
+    padding: 0.5em 0.6em;
+    background-color: #69d2e7;
+
+    h1 {
+        font-size: 2em;
+    }
+  }
+
+/*BUTTON*/
+
+/*QUIZ*/
+#quiz{
+  display: none;
+}
+
+
+/*QUIZ RESULTS*/
+#quizPrintOut{
+  display:none;
+}
+
+
+/*CONTACT FORM*/
