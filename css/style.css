@@ -6,17 +6,11 @@ ul li
 
 
 /*NAVIGATION*/
-.navbar-custom {
-  background-color: #fff;
-  border: none;
-}
+
 .nav li {
   color: #69D2E7;
   margin-top: 35px;
   font-size: 2em;
-}
-.nav li ::hover {
-  color: orange;
 }
 
 
@@ -34,9 +28,41 @@ ul li
 /*BUTTON*/
 
 /*QUIZ*/
-#quiz{
+/*#quiz{
   display: none;
+}*/
+#quiz{
+  background-color: #F38630;
+  color: #fff;
+  margin: 0 auto;
 }
+#quiz li {
+  font-size: 1em;
+  margin: 0 auto;
+ }
+
+ ul.col-xs-6.col-md-6.text-center {
+    border-radius: 5px;
+}
+
+li.quiz-questions {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+input.btn.btn-info ::hover {
+    background-color: #a7dbd8;
+}
+
+input.btn.btn-info {
+    font-size: 2em;
+    margin-top: 25px;
+    border: outset;
+    background-color: #69d2e7;
+}
+
 
 
 /*QUIZ RESULTS*/
